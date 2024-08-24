@@ -39,7 +39,7 @@ h1{
     /* min-height:minimum yükseklik belirlemek için kullanılır.
     vh ise `açılır pencerenin 100%`demektir.  */
     background:linear-gradient(rgba(5,10,30,0.7),rgba(5,10,30,0.7)),
-     url("./bg.webp");
+     url("./images/bg.webp");
     background-size: cover;
     background-position: center;
 
@@ -61,14 +61,12 @@ h1{
 }
 .nav-links ul li{
     list-style: none;
-    display: inline-block;
+    display: flex;
     /* Elemanların aynı satır içerisinde block eleman özelliğinde 
     kullanmaya yarar */
     padding: 8px 12px;
     float: right;
-    
-
-}
+ }
 .nav-links ul li a{
     text-decoration: none;
     font-size: 15px;
